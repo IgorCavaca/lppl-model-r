@@ -1,2 +1,3 @@
 # lppl-model-r
-Basic implementation of Sornette's LPPL in R
+
+Implements a predictive model of financial crashes driven by herding behavior, which is expressed through log-periodic power-law oscillations. Based on the research of [Didier Sornette](http://www.er.ethz.ch/), [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=190544). A nice visualization to understand these somewhat unstable models (implemented naively) is to ask the question "how do we know the prediction is stable", as encouragingly indicated by the plateau at about t=+50 days (y-axis, forward in time) from t=0 (x-axis, backward in time) in this [figure](https://github.com/cjoverzijl/lppl-model-r/blob/master/Stability%20of%20predictions.pdf).
